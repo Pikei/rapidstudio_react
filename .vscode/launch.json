@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "command": "cd server \n npm run dev",
+            "name": "Run Server",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+
+        {
+            "command": "cd client \n npm start",
+            "name": "Run Client",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+    ]
+}
