@@ -3,7 +3,7 @@ import Disappear from "./Disappear";
 import Menu from "./Menu";
 import eclipseGameLogo from "./images/eclipse/eclipse logo.png"
 import dreadborneGameLogo from "./images/dreadborne/dreadborne logo.png"
-
+import MediaScreen from "./MediaScreen";
 
 const Home = () => {
     return (
@@ -75,22 +75,6 @@ const EclipseScreen = () => {
           <Link to ="/career">
             <button className="career">Kariera</button>
           </Link>
-        </div>
-      </section>
-    );
-  };
-  
-  const MediaScreen = () => {
-    return (
-      <section id="media" className="screen">
-        <Menu menuType="menuWhite" />
-        <div className="content">
-          <div id="left">
-            <h1>Znajdź nas na</h1>
-          </div>
-          <div id="right">
-            <h1>Lokalizacje</h1>
-          </div>
         </div>
       </section>
     );
